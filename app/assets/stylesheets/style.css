@@ -1,12 +1,11 @@
 body {
-  background:url('<%= image_tag "clouds.jpg" %>') repeat-y center top;
+background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpscllgieea.jpg) repeat-y center top;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  /*background-color:black;*/
-  width:1000px;
-  min-width:1000px;
-  height: auto;
-  margin: 0 auto;
+    width:1000px;
+    min-width:1000px;
+    height: 700px;
+    margin: 0 auto;
   position:relative;
 }
 
