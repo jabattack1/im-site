@@ -14,6 +14,7 @@ background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpscl
 	width:1000px;
 	height:600px;
 }
+
 #home{
 	position:absolute;
 	width:1000px;
@@ -28,6 +29,13 @@ background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpscl
 	z-index:0;
 	cursor:pointer;
 	font-family: 'Montserrat', Georgia, Times, serif;
+}
+
+#daily {
+    position:absolute;
+    margin-left:710px;
+    margin-top:125px;
+    width:250px;
 }
 
 #worship {
@@ -94,6 +102,48 @@ background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpscl
 	margin-top:130px;
 	margin-left:70px;
 	width:850px;
+}
+
+#announcementabout{
+    color:#0992C4;
+    font-family: 'Montserrat', Georgia, Times, serif;
+    font-size: 20px;
+    /*border-bottom:2px dotted #000000;*/
+    /*color:#fff;*/
+    /*background-color:#fff;*/
+    height:1px;
+    width:50%;
+    /*font-weight:bold;*/
+}
+#announcementContent{
+    position:absolute;
+    color:#616372;
+    font-family: 'Montserrat', Georgia, Times, serif;
+    font-size: 14px;
+    margin-top:130px;
+    margin-left:70px;
+    width:850px;
+}
+
+#qtabout{
+    color:#0992C4;
+    font-family: 'Montserrat', Georgia, Times, serif;
+    font-size: 20px;
+    /*border-bottom:2px dotted #000000;*/
+    /*color:#fff;*/
+    /*background-color:#fff;*/
+    height:1px;
+    width:50%;
+    /*font-weight:bold;*/
+}
+#qtContent{
+    position:absolute;
+    color:#616372;
+    font-family: 'Montserrat', Georgia, Times, serif;
+    font-size: 14px;
+    margin-top:270px;
+    margin-left:70px;
+    width:850px;
 }
 
 #spread{
@@ -544,7 +594,7 @@ background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpscl
         /* styling: */
             font-family: 'Montserrat', Georgia, Times, serif;
             font-weight: normal;
-            font-size: 22px;
+            font-size: 20px;
         }
         
         /* we're using the direct descendant selectors > to ONLY affect the main menu items */
@@ -561,7 +611,7 @@ background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpscl
             /*display:block;*/
         /* styling: */
             
-            padding:8px 20px;
+            padding:8px 10px;
             text-decoration:none;
             color:#61D1F9; 
             /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
@@ -1033,6 +1083,47 @@ background:url(http://i1301.photobucket.com/albums/ag119/jabattack1/clouds_zpscl
 
 #public_bold{
 	font-weight:bold;
+}
+
+#announcements_area {
+    width:600px;
+    height:220px;
+    resize: none;
+    margin-top:-10px;
+    position:absolute;
+}
+
+#qttitle{
+    position:absolute;
+    margin-top:250px;
+}
+
+#qt_area {
+    width:600px;
+    height:220px;
+    resize: none;
+    margin-top:280px;
+    position:absolute;
+}
+
+#logout_button{
+    position:absolute;
+    margin-left:600px;
+}
+
+#announcement_edit{
+    position:absolute;
+    margin-top:225px;
+}
+
+#qt_edit{
+    position:absolute;
+    margin-top:515px;
+}
+
+#announcements_p{
+    position:absolute;
+    visibility: hidden;
 }
 
 .zoom_img img{

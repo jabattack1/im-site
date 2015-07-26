@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<form method="POST" id='logout_button' action=<%= "/admin_session/" + session[:user_id].to_s%>>
+  		<input type="hidden" name="_method" value="DELETE" />
+  		<input type="hidden" name="id" value=<%=session[:user_id].to_s%>/>
+  		<input type="submit" value="LOG OUT" class="admin_logout"/>
+</form>
+
+<h3>Announcements</h3>
+
+<form method='POST' action='/daily/3'>
+	<input type='hidden' name='_method' value='PUT'>
+	<textarea id='announcements_area' name="message" placeholder=<%= @announcement[0].message %>></textarea>
+	<input type="submit" value="UPDATE ANNOUNCEMENT" id="announcement_edit" class="edit ibutton"/>
+</form>
+
+<h3 id='qttitle'>QT</h3>
+
+<form method='POST' action='/qt/2'>
+	<input type='hidden' name='_method' value='PUT'>
+	<textarea id='qt_area' name="message" placeholder=<%= @qt[0].message %>></textarea>
+	<input type="submit" value="UPDATE QT" id="qt_edit" class="edit ibutton"/>
+</form>
+
+
+</body>
+</html>
