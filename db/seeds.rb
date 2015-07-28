@@ -7,12 +7,3 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-Admin.destroy_all
-Admin.create({first_name: "Peter", last_name: "Hahn", email: "peter.hahn@live.com", password: "cat123"})
-Admin.create({first_name: "Paul", last_name: "Woo", email: "poweredbygospel@gmail.com", password: "nfciminchrist"})
-
-Announcement.destroy_all
-Announcement.create({message: "TEST TEST TEST"})
-
-Qt.destroy_all
-Qt.create({message: "QT TEST TEST"})
