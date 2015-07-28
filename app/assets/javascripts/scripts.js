@@ -511,9 +511,9 @@ function contactFromDaily(){
     }, 820);
 }
 
-function submit_button(){
-	alert("Hello! This is a test site.  Please go to www.nfcimplus.com to message us!!");   
-}
+// function submit_button(){
+// 	alert("Hello! This is a test site.  Please go to www.nfcimplus.com to message us!!");   
+// }
 
 // $(".toggle").on("click", function () {
 //     $(".marquee").toggleClass("microsoft");
